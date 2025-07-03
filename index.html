@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque Tradicional</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Estoque</h1>
+
+        
+        <div class="input-section">
+            <div class="input-grid">
+                <div>
+                    <label for="itemName">Nome do Item:</label>
+                    <input type="text" id="itemName" placeholder="Ex: Camiseta">
+                </div>
+                <div>
+                    <label for="itemQuantity">Quantidade:</label>
+                    <input type="number" id="itemQuantity" placeholder="Ex: 100">
+                </div>
+                <div>
+                    <label for="itemPrice">Preço (R$):</label>
+                    <input type="number" id="itemPrice" placeholder="Ex: 29.99" step="0.01">
+                </div>
+            </div>
+            <div class="button-group">
+                <button id="clearFormBtn" class="btn btn-secondary">Limpar Formulário</button>
+                <button id="addItemBtn" class="btn btn-primary">Adicionar Item</button>
+                <button id="updateItemBtn" class="btn btn-primary hidden">Atualizar Item</button>
+            </div>
+        </div>
+
+        
+        <div class="search-section">
+            <label for="searchItem">Buscar Item:</label>
+            <input type="text" id="searchItem" placeholder="Digite para buscar...">
+        </div>
+
+       
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="inventoryTableBody">
+                   
+                </tbody>
+            </table>
+            <p id="noItemsMessage" class="no-items-message hidden">Nenhum item encontrado.</p>
+        </div>
+    </div>
+
+    
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+            <p id="modalMessage">Tem certeza?</p>
+            <div class="modal-buttons">
+                <button id="modalCancelBtn" class="btn btn-secondary">Cancelar</button>
+                <button id="modalConfirmBtn" class="btn btn-danger">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
