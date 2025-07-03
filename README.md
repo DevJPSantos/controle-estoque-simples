@@ -15,7 +15,7 @@ Um aplicativo web simples para gerenciar o controle de estoque de produtos, dese
 ## 🚀 Como Usar
 
 1.  **Clone o repositório:**
-    git clone [https://github.com/DevJPSantos/controle-estoque-simples-js.git](https://github.com/DevJPSantos/controle-estoque-simples-js.git)
+    git clone [https://github.com/DevJPSantos/controle-estoque-simples.git](https://github.com/DevJPSantos/controle-estoque-simples.git)
     
 
 2.  **Navegue até a pasta do projeto:**
