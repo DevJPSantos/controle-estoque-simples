@@ -25,6 +25,7 @@ Um aplicativo web simples para gerenciar o controle de estoque de produtos, dese
 3.  **Abra o arquivo `index.html`:** Simplesmente clique duas vezes no arquivo `index.html` no seu explorador de arquivos, ou arraste-o para o seu navegador web.
 
 ## 🛠️ Estrutura do Projeto
+'''
 controle-estoque-simples/
 ├── css/
 │   └── style.css
@@ -32,7 +33,8 @@ controle-estoque-simples/
 │   └── script.js
 ├── index.html
 ├── README.md
-└── LICENSE.md   
+└── LICENSE.md
+'''
 
 ## ⚙️ Tecnologias Utilizadas
 
